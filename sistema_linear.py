@@ -20,7 +20,7 @@ def resolver_sistema(A, b):
 
 
 def main():
-    arquivo_csv = 'sistema_3x3.csv'  
+    arquivo_csv = 'sistema_4.csv'  
 
     A, b = ler_csv(arquivo_csv)
     
