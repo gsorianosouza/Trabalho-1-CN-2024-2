@@ -12,7 +12,7 @@ def ler_csv(filename):
     A = np.array([row[:-1] for row in dados]) 
     b = np.array([row[-1] for row in dados]) 
 
-    return A, b, 
+    return A, b
 
 
 def resolver_sistema(A, b):
